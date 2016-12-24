@@ -1,0 +1,202 @@
+body {
+        font-family: 'Lato', sans-serif;
+        background-image: url("images/background.png");
+        background-size: cover;
+        color:#FFFFFF;
+        font-weight: 200;
+      }
+
+
+h3{
+  font-weight: 200;
+  font-size: 40px;
+}
+
+p{
+  font-weight:300;
+  margin-top:5px;
+  font-size:20px;
+}
+
+#name{
+  margin-top:130px;
+  margin-bottom:0px;
+}
+
+.margin20{
+  margin-left:20px;
+}
+
+#header{
+  height:350px;
+  width:500px;
+  margin: 200px auto 10px auto;
+}
+
+#portrait{
+  border-radius:100%;
+  margin: 111px 0px 111px 30px;
+}
+
+#portrait-section{
+  width:150px;
+  height:350px;
+  float:left;
+}
+
+#info-section{
+  height:350px;
+  width:305px;
+  float:right;
+  border-left: #FFFFFF 2px solid;
+}
+
+#short-desc{
+  margin-bottom:0px;
+}
+
+a:link{
+  margin-top:0px;
+  color:#FFFFFF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#website-link{
+  margin: 5px 0px auto 0px;
+  vertical-align: middle;
+  height:15px;
+  padding-bottom:5px;
+}
+
+a:hover{
+  opacity:0.5;
+}
+
+a:visited {
+  color:#FFFFFF;
+}
+
+#link-button-section{
+  height:100px;
+  width:500px;
+  margin:0 auto;
+}
+
+.margin-auto{
+  margin:auto auto;
+}
+
+.link-image{
+  height:50px;
+  width:50px;
+  padding: 25px 25px;
+  transition:.5s;
+}
+
+.link-image:hover{
+  height:100px;
+  width:100px;
+  padding:0px;
+}
+
+.link-section{
+  width:100px;
+  height:100px;
+  margin:0 30px;
+  float:left;
+}
+
+#gmail-link{
+}
+
+#github-link{
+}
+
+#facebook-link{
+}
+
+#main {
+    transition: 0.5s;
+    padding: 20px;
+}
+
+#slideout-section{
+  background-color: #FFFFFF;
+  height:100%;
+  width:0px;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  padding-top:20px;
+  overflow-x: hidden;
+  transition:0.3s;
+}
+
+
+#slideout-button-sec{
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  border: #FFFFFF solid 2px;
+  transition:0.3s
+}
+
+
+#slideout-button{
+  font-size:20px;
+  height:20px;
+  width:20px;
+  margin: 10px 6px;
+}
+
+#slide-out-portrait{
+  margin-left: 60px;
+  margin-top:25px;
+  border-radius:50%;
+}
+
+#slideout-text{
+  transition:0.3s;
+  text-align:center;
+  height:auto;
+  width:150px;
+  margin: 20px auto;
+  padding-top:20px;
+  padding-bottom: 20px;
+  color:#797979;
+  border-top: 2px #A78B56 solid;
+  border-bottom: 2px #A78B56 solid;
+}
+
+#slideout-section a:link{
+  color:#797979;
+}
+
+#slideout-section a:hover{
+  opacity:0.5;
+}
+
+#slideout-section a:visited{
+  color:#797979;
+}
+
+#bio-text{
+  height:auto;
+  width:500px;
+  margin: 300px auto;
+  border: 2px #A78B56 solid;
+  background-color: #FFFFFF;
+  padding: 20px 50px;
+  color:#797979;
+}
+
+#bio-portrait{
+height:200px;
+width:200px;
+padding-left:150px;
+padding-right:150px;
+margin: 10px 0px;
+border-radius:50%;
+}
